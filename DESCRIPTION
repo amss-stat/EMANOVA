@@ -1,0 +1,17 @@
+Package: EMANOVA
+Title: Ensemble test for microbiome data (currently under review)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Deliang", "Bu", , "budeliang@cueb.edu.cn", role = c("aut", "cre"))
+Description: This package contains hypothesis testing method EMANOVA for testing the association between microbiome data and other variables. The test can be seen as an generalization of traditional PERMANOVA.  Main function "EMANOVA" output the p value of the test. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    abind,
+    fBasics,
+    GUniFrac,
+    MASS,
+    PearsonDS,
+    vegan
